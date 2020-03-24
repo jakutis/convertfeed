@@ -1,6 +1,6 @@
 {
   "name": "convertfeed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert RSS, Atom or RDF feed to JSON, CSV or XML",
   "bin": "index.js",
   "scripts": {
