@@ -13,10 +13,12 @@
   "keywords": [
     "rss",
     "atom",
+    "rdf",
     "feed",
     "convert",
     "json",
-    "text"
+    "csv",
+    "xml"
   ],
   "author": "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is/)",
   "license": "MIT",
