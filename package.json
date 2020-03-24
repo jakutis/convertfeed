@@ -1,0 +1,35 @@
+{
+  "name": "convertfeed",
+  "version": "0.0.0",
+  "description": "convert RSS, Atom or RDF feed to JSON, CSV or XML",
+  "bin": "index.js",
+  "scripts": {
+    "reinstall": "rm -rf node_modules package-lock.json && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakutis/convertfeed.git"
+  },
+  "keywords": [
+    "rss",
+    "atom",
+    "feed",
+    "convert",
+    "json",
+    "text"
+  ],
+  "author": "Vytautas Jakutis <vytautas@jakut.is> (https://jakut.is/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakutis/convertfeed/issues"
+  },
+  "homepage": "https://github.com/jakutis/convertfeed#readme",
+  "dependencies": {
+    "csv-stringify": "5.3.6",
+    "feedparser": "2.2.9",
+    "jsdom": "16.2.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
