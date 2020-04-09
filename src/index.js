@@ -16,7 +16,7 @@ parseFeed({
   .then(function (items) {
     return stringify(
       items,
-      process.argv.includes('--type=text') ? 'text' : (process.argv.includes('--type=csv') ? 'csv' : (process.argv.includes('--type=xml') ? 'xml' : 'json'))
+      process.argv.includes('--type=csv') ? 'csv' : (process.argv.includes('--type=xml') ? 'xml' : 'json')
     )
   })
   .then(function (string) {
